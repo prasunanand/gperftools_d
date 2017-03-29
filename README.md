@@ -1,2 +1,2 @@
-# gperftools.d
-Google Performance Tools for D
+# gperftools_d
+D bindings for gperftools(Google Performance Tools)
