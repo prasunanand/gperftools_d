@@ -18,6 +18,16 @@ Install go and then install google-pprof.
 go get github.com/google/pprof
 ```
 
+# Performance Profiling
+
+Add `gperftools_d` in `dub.json` as a dependency.
+
+```json
+  "dependencies": {
+    "gperftools_d": "~>0.1.0"
+  }
+```
+
 Place the code you want to profile within `ProfilerStart()` and `ProfilerStop()`.
 
 Example: In the `examples/source/app.d` file:
@@ -58,9 +68,11 @@ pprof --gv <path/to/binary> /tmp/prof.out # really cool graphical output
 pprof --pdf <path/to/binary> /tmp/prof.out > profile.pdf # dump graphical output in profile.pdf
 ```
 
-Example output:
+### Example output:
 
 [Profile.pdf](https://github.com/prasunanand/gperftools_d/tree/master/examples/profile.pdf)
+
+# LICENSE
 
 This software is distributed under the [BSD 3-Clause License]().
 

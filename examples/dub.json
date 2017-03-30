@@ -6,7 +6,6 @@
 	"dependencies": {
 		"gperftools_d": "~>0.1.0"
 	},
-	"libs": ["profiler"],
 	"description": "gperftools usage example",
 	"copyright": "Copyright © 2017, Prasun Anand",
 	"license": "BSD 3-Clause License"
