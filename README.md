@@ -53,7 +53,7 @@ void main() {
   foreach (i; 0 .. 30) {
     writeln(fib(i));
   }
-  ProfilerStop();          // Profiling Starts
+  ProfilerStop();          // Profiling Stops
 }
 
 ```
