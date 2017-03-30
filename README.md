@@ -49,11 +49,11 @@ int fib(int x) {
 }
 
 void main() {
-  ProfilerStart();         # Profiling Starts
+  ProfilerStart();         // Profiling Starts
   foreach (i; 0 .. 30) {
     writeln(fib(i));
   }
-  ProfilerStop();          # Profiling Starts
+  ProfilerStop();          // Profiling Starts
 }
 
 ```
@@ -74,6 +74,6 @@ pprof --pdf <path/to/binary> /tmp/prof.out > profile.pdf # dump graphical output
 
 # LICENSE
 
-This software is distributed under the [BSD 3-Clause License]().
+This software is distributed under the [BSD 3-Clause License](LICENSE).
 
 Copyright © 2016, 2017, Prasun Anand
