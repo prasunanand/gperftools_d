@@ -9,3 +9,8 @@ __dummy.html
 out
 __test__library__
 libgperftools_d.a
+examples/.dub
+examples/profiler_example
+examples/dub.selections.json
+examples/docs.json
+examples/prof.out
