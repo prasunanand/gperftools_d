@@ -76,4 +76,4 @@ pprof --pdf <path/to/binary> /tmp/prof.out > profile.pdf # dump graphical output
 
 This software is distributed under the [BSD 3-Clause License](LICENSE).
 
-Copyright © 2016, 2017, Prasun Anand
+Copyright © 2017, Prasun Anand
